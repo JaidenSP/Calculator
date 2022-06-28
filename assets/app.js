@@ -1,8 +1,9 @@
 //Create basic + - / * functions and a main calculator function
 
-function additon(a, b){
+function addition(a, b, operate){
     let calculated = a + b;
-    return calculated;
+    return operate(calculated);
+    
 }
 
 function subtraction(a, b){
@@ -24,12 +25,11 @@ function multiplication(a, b){
 //create a basic calculator with html and css with an equals button and a clear button (create a display with for the buttons)
 //create the functions that populate the display (should be storing the display value in a variable outside of the scope for use later)
 
-function operate(additon, subtraction, division, multiplication){
+function operate(additon){
 
-   additon = additon(16, 12);
+    var calculateAddition = additon;
 
-   console.log(additon);
-
+    return calculateAddition;
 }
 
-operate();
+console.log(addition(12, 13, operate));
