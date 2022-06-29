@@ -1,0 +1,35 @@
+#container {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    border: solid black;
+}
+
+#display-text{
+    width: 100%;
+}
+
+#parent-button-div {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: #C16632;
+    border: solid black;
+}
+
+.btn{
+    width: 24%;
+    background-color: #5C7474;
+}
+
+#Delete{
+    width: 49%;
+}
+
+#Clear{
+    width: 49%;
+}
